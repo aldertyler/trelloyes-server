@@ -28,6 +28,7 @@ app.use(function validateBearerToken(req, res, next) {
 });
 
 app.use(cardRouter);
+app.use(listRouter);
 
 app.get("/", (req, res) => {
   res.send("Hello, boilerplate!");
