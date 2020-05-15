@@ -107,7 +107,7 @@ app.use(function errorHandler(error, req, res, next) {
   res.status(500).json(response);
 });
 
-app.post("./card", (req, res) => {
+app.post("/card", (req, res) => {
   const { title, content } = req.body;
 
   if (!title) {
