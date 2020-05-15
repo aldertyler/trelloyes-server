@@ -1,3 +1,5 @@
 {"message":"Unauthorized request to path: /","level":"error"}
 {"message":"Unauthorized request to path: /","level":"error"}
 {"message":"Card with id 2 not found.","level":"error"}
+{"message":"Card with id 02a74ae2-2942-43fa-bb83-2defa30e5403 created","level":"info"}
+{"message":"Card with id 02a74ae2-2942-43fa-bb83-2defa30e5403 deleted.","level":"info"}
